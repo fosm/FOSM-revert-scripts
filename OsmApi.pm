@@ -48,7 +48,7 @@ sub setup {
     my $host = $1;
     $host .= ":80" unless ($host =~ /:/);
     $ua = LWP::UserAgent->new;
-    warn "Creds" .join ",",($host, "", $prefs->{username}, $prefs->{password});
+#    warn "Creds" .join ",",($host, "", $prefs->{username}, $prefs->{password});
     $ua->credentials($host, "FOSM", $prefs->{username}, $prefs->{password});
     my $revision = '$Revision: 27365 $';
     my $revno = 0;

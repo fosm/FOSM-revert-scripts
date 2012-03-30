@@ -1,0 +1,30 @@
+<osmChange version="0.6" generator="JOSM">
+<modify>
+  <way id='4854707' action='modify' timestamp='2012-01-09T21:02:00Z' uid='527441' user='dromedar' visible='true' version='9' changeset='1333125752'>
+    <nd ref='1393657309' />
+    <nd ref='1584062683' />
+    <nd ref='29675440' />
+    <nd ref='1495848388' />
+    <nd ref='29675319' />
+    <nd ref='1495848402' />
+    <nd ref='29675770' />
+    <nd ref='29675305' />
+    <nd ref='29675300' />
+    <nd ref='29675783' />
+    <nd ref='29675317' />
+    <nd ref='595295636' />
+    <nd ref='1495848400' />
+    <nd ref='29675328' />
+    <nd ref='457344902' />
+    <nd ref='457344903' />
+    <nd ref='457344904' /> 
+   <nd ref='457344905' />
+    <nd ref='370124781' />
+    <tag k='highway' v='unclassified' />
+    <tag k='meta:id' v='4854707' />
+    <tag k='meta:lastEdit' v='2012-01-09T21:02:00Z' />
+    <tag k='name' v='Zejnel Salihu' />
+    <tag k='test' v='1' />
+  </way>
+</modify>
+</osmChange>
