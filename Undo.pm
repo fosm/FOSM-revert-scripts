@@ -119,18 +119,19 @@ sub determine_undo_action
         print STDERR "$what $id cannot be retrieved: ".$resp->status_line."\n";
         return undef;
     }
-
-    foreach (split(/\n/, $resp->content()))
+    my $content=$resp->content();
+    warn "check $content";
+    foreach (split(/\n/, $content))
     { 
         if (/<$what/) 
         { 
-            /\sid="([^"]+)"/ or die; 
+            /\sid='([^']+)'/ or die "mising id in $_"; 
                 die unless $id eq $1; 
-            /\sversion="([^"]+)"/ or die; 
+            /\sversion='([^']+)'/ or die "missing version in $_"; 
                 my $version = $1;
-            /user="([^"]+)/;
+            /user='([^']+)/;
             my $user=$1;
-            /changeset="(\d+)/;
+            /changeset='(\d+)/;
             my $cs=$1;
             if ((!defined($undo_users) || defined($undo_users->{$user})) && (!defined($undo_changesets) || defined($undo_changesets->{$cs})))
             { 
