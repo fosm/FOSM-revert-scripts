@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osmChange version="0.3" generator="Merkaartor 0.18">
+  <modify>
+    <node id="603918361" timestamp="2012-03-30T12:02:25Z" version="2" user="h4ck3rm1k3" changeset="1000008770" action="modify" lon="21.1655369" lat="42.6659327">
+      <tag k="name" v="Parku Arkeologjik"/>
+      <tag k="historic" v="archaeological_site"/>
+      <tag k="test" v="2"/>
+    </node>
+  </modify>
+</osmChange>
