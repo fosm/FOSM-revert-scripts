@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osmChange  version="0.3" generator="Merkaartor 0.18">
+<modify>
+  <node action='modify' id="617633788" timestamp="2011-10-30T10:45:47Z" version="2" user="Altin" lon="21.1656894" lat="42.6668422"/>
+</modify>
+</osmChange >
